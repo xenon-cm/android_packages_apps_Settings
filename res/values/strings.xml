@@ -822,6 +822,12 @@
     <string name="lock_screen_title">Lock screen</string>
     <!-- Lock Screen -->
 
+    <!-- Input Settings -->
+    <string name="input_settings">Buttons</string>
+    <string name="input_settings_title">Buttons</string>
+    <string name="pref_volume_wake_title">Volume rocker wake</string>
+    <string name="pref_volume_wake_summary">Pressing the volume up/down wakes the device. Intended for devices with hard to press power key</string>
+
     <!-- Wallpaper settings title [CHAR LIMIT=30] -->
     <string name="wallpaper_settings_title">Wallpaper</string>
     <!-- Wallpaper settings fragment title [CHAR LIMIT=30] -->
@@ -1378,6 +1384,14 @@
     <string name="pref_use_16bpp_alpha_title">16bit transparency</string>
     <string name="pref_use_16bpp_alpha_summary">Better graphics performance, but lower quality and may cause visual artifacts (requires reboot)</string>
 
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Scrolling cache</string>
+    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
+    <string name="pref_scrollingcache_force_enable">Force enable</string>
+    <string name="pref_scrollingcache_default_enable">Default enable</string>
+    <string name="pref_scrollingcache_default_disable">Default disable</string>
+    <string name="pref_scrollingcache_force_disable">Force disable</string>
+
     <!-- About Device -->
     <!-- Status -->
     <!-- About device screen, phone status screen title -->
@@ -1457,7 +1471,7 @@
     <!-- About device screen, version of kernel. -->
     <string name="kernel_version">Kernel version</string>
     <!-- About device screen, version of modification of Android. -->
-    <string name="mod_version">CyanogenMod version</string>
+    <string name="mod_version">XenonHD version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About device screen, build number. -->
     <string name="build_number">Build number</string>

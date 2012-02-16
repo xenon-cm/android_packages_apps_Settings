@@ -677,6 +677,17 @@
     <string name="summary_font_size" translatable="false">%1$s</string>
     <!-- [CHAR LIMIT=40] Sound & display settings screen, title of dialog for picking font size -->
     <string name="dialog_title_font_size">Font size</string>
+<<<<<<< HEAD
+=======
+    <!-- Sound & display settings screen, setting option name to change whether navigation bar is shown -->
+    <string name="navigation_bar_title">Enable/Disable Navigation Bar</string>
+    <!-- Sound & display settings screen, setting option summary to change whether navigation bar is shown -->
+    <string name="navigation_bar_summary">(Requires reboot)</string>
+    <!-- Strings for Lockscreen Settings -->
+    <string name="title_pref_lockscreen_quad_targets">Quad Targets</string>
+    <string name="summary_pref_lockscreen_quad_targets">Adds Phone and Messaging shortcuts on the lock screen</string>
+    <string name="lockscreen_title">Lockscreen Style</string>
+>>>>>>> a666173... Option for quad lockscreen toggle
 
     <!-- Backlight #CM -->
     <string name="backlight_title">Automatic backlight</string>
@@ -822,12 +833,6 @@
     <string name="lock_screen_title">Lock screen</string>
     <!-- Lock Screen -->
 
-    <!-- Input Settings -->
-    <string name="input_settings">Buttons</string>
-    <string name="input_settings_title">Buttons</string>
-    <string name="pref_volume_wake_title">Volume rocker wake</string>
-    <string name="pref_volume_wake_summary">Pressing the volume up/down wakes the device. Intended for devices with hard to press power key</string>
-
     <!-- Wallpaper settings title [CHAR LIMIT=30] -->
     <string name="wallpaper_settings_title">Wallpaper</string>
     <!-- Wallpaper settings fragment title [CHAR LIMIT=30] -->
@@ -874,8 +879,8 @@
     <string name="additional_options_title">Additional options</string>
     <string name="unlock_menu_unlock_title">Menu unlock</string>
     <string name="unlock_menu_unlock_summary">Pressing the menu button unlocks the device</string>
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">No need to press OK when entering PIN or password. Delete counts as bad try</string>
+    <string name="unlock_quick_unlock_control_title">Quick Unlock</string>
+    <string name="unlock_quick_unlock_control_summary">No need to press OK when entering Pin or Password. Delete counts as bad try</string>
 
     <!-- Delays and timeouts -->
     <string name="delay_and_timeout_title">Lock delay</string>
@@ -1369,9 +1374,6 @@
     <!-- VM Heap Size -->
     <string name="pref_heapsize_title">VM heap size</string>
     <string name="pref_heapsize_summary">Maximum amount of memory per VM heap (requires reboot)</string>
-    <!-- KSM -->
-    <string name="pref_ksm_title">Kernel samepage merging</string>
-    <string name="pref_ksm_summary">KSM reduces physical memory requirements and improves performance</string>
     <!-- Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Allow purging of assets</string>
     <string name="pref_purgeable_assets_summary">Purging of bitmap memory assets allows the freeing of more RAM when needed (requires reboot)</string>
@@ -1383,14 +1385,6 @@
     <!-- Performance Settings : 16bpp Alpha -->
     <string name="pref_use_16bpp_alpha_title">16bit transparency</string>
     <string name="pref_use_16bpp_alpha_summary">Better graphics performance, but lower quality and may cause visual artifacts (requires reboot)</string>
-
-    <!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Scrolling cache</string>
-    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-    <string name="pref_scrollingcache_force_enable">Force enable</string>
-    <string name="pref_scrollingcache_default_enable">Default enable</string>
-    <string name="pref_scrollingcache_default_disable">Default disable</string>
-    <string name="pref_scrollingcache_force_disable">Force disable</string>
 
     <!-- About Device -->
     <!-- Status -->
@@ -3013,15 +3007,6 @@ found in the list of installed apps.</string>
     <string name="adb_warning_title">Allow USB debugging?</string>
     <!-- Warning text to user about the implications of enabling USB debugging -->
     <string name="adb_warning_message">USB debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
-
-    <!-- Setting checkbox title for root access -->
-    <string name="root_access">Root access</string>
-    <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing applications to request root access is very dangerous and could compromise the security of your system!</string>
-    <string name="root_access_none">Disabled</string>
-    <string name="root_access_apps">Apps only</string>
-    <string name="root_access_adb">ADB only</string>
-    <string name="root_access_all">Apps and ADB</string>
 
     <!-- Title for the screen that lets the user choose a gadget to add to the home screen
          (or other screens that can host gadgets). Note to translators: we're still determining

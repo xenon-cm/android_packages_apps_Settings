@@ -451,6 +451,7 @@ public class Utils {
         }
     }
 
+<<<<<<< HEAD
     public static boolean isScreenLarge() {
         final int screenSize = Resources.getSystem().getConfiguration().screenLayout &
                 Configuration.SCREENLAYOUT_SIZE_MASK;
@@ -459,6 +460,7 @@ public class Utils {
         return isScreenLarge;
     }
 
+=======
     public static boolean fileExists(String filename) {
         return new File(filename).exists();
     }
@@ -495,12 +497,5 @@ public class Utils {
         }
         return true;
     }
-
-    public static boolean isScreenLarge() {
-        final int screenSize = Resources.getSystem().getConfiguration().screenLayout &
-                Configuration.SCREENLAYOUT_SIZE_MASK;
-        boolean isScreenLarge = screenSize == Configuration.SCREENLAYOUT_SIZE_LARGE ||
-            screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE;
-        return isScreenLarge;
-    }
+>>>>>>> 3b6d6d2684db6d6e147f0f23014b375de38dcec3
 }
